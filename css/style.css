@@ -17,6 +17,7 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  padding-top: 7.5rem;
 }
 
 .blog-card{
@@ -26,7 +27,6 @@ body{
   height: 31.5rem;
   border-radius: 0.5rem;
   background-color: #fff;
-  margin-top: 6rem;
 }
 
 .display{
@@ -46,20 +46,22 @@ img{
 
 .card-type{
   width: max-content;
-  background-color: #bbf7d09a;
+  background-color: #F0FDF4;
   color: #15803D;
   padding: 2px 8px;
   border-radius: 9999px;
   font-size: .8rem;
-  border: 1px solid #15803D;
+  border: 2px solid #BBF7D0;
 }
 
 .blog-title{
   font-size: 1.1rem;
+  color: #171717;
 }
 
 .blog-about{
   color: #525252;
+  font-weight: 500;
 }
 
 .ref-link{
@@ -68,10 +70,8 @@ img{
   text-decoration: none;
 }
 
-.ref-link:hover{
+.ref-link:hover,.ref-link:focus{
   color: #3730A3;
-}
-.ref-link:focus{
   border-radius: 9px;
   border: 3px solid #a099f5bc;
   padding: 1px;
